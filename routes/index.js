@@ -15,15 +15,15 @@ router.get("/", (req, res) => {
   blogposts
     .get()
     .then((querySnapshot) => {
-        querySnapshot.forEach(doc => {
-            blogpostsArray.push(doc.data())
-        })
-        // Return array
-        return res.send(blogposts)
+      querySnapshot.forEach((doc) => {
+        blogpostsArray.push(doc.data());
+      });
+      // Return array
+      return res.send(blogpostsArray);
     })
-    .catch(function(e) => {
-        console.warn('error', e);
-        return res.send(error);
+    .catch(function (e) {
+      console.warn("error", e);
+      return res.send(error);
     });
 });
 

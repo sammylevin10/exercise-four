@@ -4,13 +4,13 @@ const port = process.env.PORT || 4000;
 
 // Configuration values for firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAIjoH5jpQ-rBNXORGK7brAqEFhpzAfquU",
-  authDomain: "exercise-four-98fad.firebaseapp.com",
-  databaseURL: "https://exercise-four-98fad.firebaseio.com",
-  projectId: "exercise-four-98fad",
-  storageBucket: "exercise-four-98fad.appspot.com",
-  messagingSenderId: "1650033633",
-  appId: "1:1650033633:web:67d324bf0c0dfdcff808a0",
+  apiKey: "AIzaSyBII0Eze8rKcyWaeUjX7CaAvzN0Ko7LgHQ",
+  authDomain: "exercise-four-bb1b5.firebaseapp.com",
+  databaseURL: "https://exercise-four-bb1b5.firebaseio.com",
+  projectId: "exercise-four-bb1b5",
+  storageBucket: "exercise-four-bb1b5.appspot.com",
+  messagingSenderId: "331846027737",
+  appId: "1:331846027737:web:0ac2d7adb7e61cf94a71c8",
 };
 
 //Firebase connection
