@@ -23,8 +23,8 @@ const postRoute = require("./routes/post.js");
 const createRoute = require("./routes/createBlogpost.js");
 // Routes
 app.use("/", indexRoute);
-app.use("/", postRoute);
-app.use("/", createRoute);
+app.use("/post", postRoute);
+app.use("/create", createRoute);
 
 app.listen(port, () =>
   console.log(`Exercise Four is running at localhost:${port}`)
